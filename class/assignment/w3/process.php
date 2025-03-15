@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p><strong>Name:</strong> $name</p>";
         echo "<p><strong>Email:</strong> $email</p>";
     } else {
-        echo "<h2 class='text-red-500 font-bold text-center>Error: Please make sure all fields are filled out correctly and passwords match.</h2>";
+        echo "<h2 class='text-red-500 font-bold text-center' >Error: Please make sure all fields are filled out correctly and passwords match.</h2>";
     }
 } else {
     echo "<h2>Invalid Register</h2>";
