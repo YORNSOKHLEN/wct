@@ -1,0 +1,27 @@
+# Ignore node modules (if you use Node.js)
+node_modules
+
+# Ignore Git version control files
+.git
+.gitignore
+
+# Ignore Docker config files
+docker-compose.yml
+Dockerfile
+
+# Ignore documentation and markdown files
+*.md
+
+# Ignore OS metadata files
+.DS_Store
+
+# Ignore tests and build files
+tests
+build
+tmp
+
+# Ignore any logs
+*.log
+
+# Ignore environment files (optional, depending on your needs)
+.env
